@@ -1,0 +1,152 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  height: 450px;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.img2 {
+  display: none;
+}
+
+.container2 {
+  padding: 25px;
+  margin-left: 10px;
+}
+
+.perfume {
+  margin-top: 10px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.essence {
+  width: 220px;
+  font-family: "Fraunces";
+  font-size: 22px;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+}
+
+.floral {
+  width: 230px;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.label {
+  display: flex;
+  margin-top: 25px;
+}
+
+.num1 {
+  font-family: "Fraunces";
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.num2 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: hsl(228, 12%, 48%);
+}
+
+.button {
+  margin-top: 20px;
+  width: 220px;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 700;
+  width: 220px;
+  text-align: center;
+  padding: 15px;
+  border: 0;
+  border-radius: 7px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-family: "Montserrat";
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: hsl(212, 21%, 14%);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    color: white;
+    height: auto;
+  }
+
+  .container2 {
+    padding: 15px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+    width: 345px;
+    height: 240px;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .essence {
+    width: 300px;
+    margin-top: -10px;
+  }
+
+  .floral {
+    width: 295px;
+    margin-top: -10px;
+  }
+
+  .button {
+    width: 300px;
+  }
+
+  .button2 {
+    width: 300px;
+  }
+}
