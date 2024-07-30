@@ -2,6 +2,8 @@
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
+Preview Live: https://olaniyan18.github.io/Product-Preview/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
